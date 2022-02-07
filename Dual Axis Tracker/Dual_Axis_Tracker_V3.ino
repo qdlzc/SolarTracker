@@ -1,5 +1,6 @@
 /*
- * Dual Axis Tracker
+ * Dual Axis Tracker Sunflower
+
  *
  * Brown Dog Gadgets <https://www.browndoggadgets.com/>
  * 
@@ -86,6 +87,7 @@ void loop() {
   Serial.print("   ");
   Serial.print(servoh);
   Serial.println(" ");
+  * this could be cancel after adjusting
 
 
   // check if the difference is in the tolerance else change vertical angle
